@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets</title>
+    <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a href="../main/index.html" class="logo">
+          <h1 class="logo-title">Cozy House</h1>
+          <p class="logo-subtitle">Shelter for pets in Boston</p>
+        </a>
+        <nav class="nav-menu closeMenu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="../main/index.html"
+                >About the shelter</a
+              >
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link active" href="../pets/index.html"
+                >Our pets</a
+              >
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="../main/index.html#help"
+                >Help the shelter</a
+              >
+            </li>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="btn btn-burger">
+          <svg class="burger">
+            <use xlink:href="../../assets/icons/sprite.svg#burger-h"></use>
+          </svg>
+        </button>
+        <div class="black-window"></div>
+      </header>
+      <main>
+        <section class="pets">
+          <div class="pets-content">
+            <h2 class="content-title content-title__center">
+              Our friends who<br />
+              are looking for a house
+            </h2>
+            <div class="slider">
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-katrine.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Katrine</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-jennifer.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Jennifer</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-woody.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Woody</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-sophia.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Sophia</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-timmy.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Timmy</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-charly.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Charly</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-scarlet.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Scarlett</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+              <div class="slider-item">
+                <img
+                  src="../../assets/images/pets-freddie.png"
+                  class="slider-item__img"
+                  alt="photo"
+                />
+                <h3 class="slider-item__title">Freddie</h3>
+                <button class="btn btn-rect btn-white">Learn more</button>
+              </div>
+            </div>
+            <div class="pets-nav">
+              <button class="btn btn-circle__disabled">
+                <span class="btn-circle__text disabled">&lt;&lt;</span>
+              </button>
+              <button class="btn btn-circle__disabled">
+                <span class="btn-circle__text disabled">&lt;</span>
+              </button>
+              <button class="btn btn-circle active-btn">
+                <span class="btn-circle__text">1</span>
+              </button>
+              <button class="btn btn-circle">
+                <span class="btn-circle__text">&gt;</span>
+              </button>
+              <button class="btn btn-circle">
+                <span class="btn-circle__text">&gt;&gt;</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer-contacts">
+          <h2 class="content-title content-title__footer">
+            For questions and suggestions
+          </h2>
+          <a
+            class="footer-link"
+            href="mailto:email@shelter.com"
+            target="_blank"
+          >
+            <svg class="footer-link__icon footer-link__icon-contacts">
+              <use xlink:href="../../assets/icons/sprite.svg#icon-email"></use>
+            </svg>
+            <span class="footer-link__text">email@shelter.com</span>
+          </a>
+          <a class="footer-link" href="tel:+136745677554" target="_blank">
+            <svg class="footer-link__icon footer-link__icon-contacts">
+              <use xlink:href="../../assets/icons/sprite.svg#icon-phone"></use>
+            </svg>
+            <span class="footer-link__text">+13 674 567 75 54;</span>
+          </a>
+        </div>
+        <div class="footer-location">
+          <h2 class="content-title content-title__footer">
+            We are waiting for your visit
+          </h2>
+          <a
+            class="footer-link"
+            href="https://goo.gl/maps/wyjTFc17bso9MFLV7"
+            target="_blank"
+          >
+            <svg class="footer-link__icon footer-link__icon-location">
+              <use xlink:href="../../assets/icons/sprite.svg#icon-marker"></use>
+            </svg>
+            <span class="footer-link__text"
+              >1 Central Street, Boston<br />
+              (entrance from the store)</span
+            >
+          </a>
+          <a
+            class="footer-link"
+            href="https://goo.gl/maps/LYLuJ7JqAmwWLa8LA"
+            target="_blank"
+          >
+            <svg class="footer-link__icon footer-link__icon-location">
+              <use xlink:href="../../assets/icons/sprite.svg#icon-marker"></use>
+            </svg>
+            <span class="footer-link__text">18 South Park, London</span>
+          </a>
+        </div>
+        <img
+          src="../../assets/images/footer-puppy.png"
+          class="footer-img"
+          alt="footer-dog"
+        />
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
